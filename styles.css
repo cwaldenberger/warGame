@@ -1,0 +1,86 @@
+/* boilerplate css */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+main{
+    background-color: gray;    
+    height: 95vh;
+}
+
+.scoreBoard{
+display: grid;
+grid-template-columns: 30% 40% 15% 15% ;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: aqua;
+    /* margin-bottom: 4rem; */
+}
+
+.ingameBtns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+button{
+    padding: 1rem 2.5rem;
+    width: 8rem;
+    margin: 1rem auto;
+}
+
+/* .newDeckBtn{
+    display: flex;
+}
+
+.drawCards{
+    display: flex;
+}
+*/
+.resetGame{
+    display: flex;
+} 
+
+
+h4{
+    margin: 0 auto;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.displayCards{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-evenly;
+    align-items: center;
+}
+
+.cardDisplay{
+margin:10% 0;
+}
+
+#cardLeft #cardRight{
+   width: 1rem;
+}
+
+footer{
+    background-color: aqua;
+    width: 100%;
+    text-align: center;
+    margin:0;
+    height: 5vh;
+}
+
+h1{
+    
+    margin: 0;
+    padding: 0;
+}
+
